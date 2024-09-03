@@ -1,0 +1,60 @@
+/* Container to handle overflow and set the perspective */
+.relative {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  /* The wrapper for the testimonials that will scroll */
+  .testimonial-container {
+    display: flex;
+    flex-direction: row;
+    animation: scroll 20s linear infinite;
+  }
+  
+  /* Styling for each testimonial card */
+  .testimonial-card {
+    flex: 0 0 auto;
+    width: 320px; /* Fixed width for consistency */
+    margin-right: 20px;
+    /* Ensure all cards have the same height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .testimonial-content {
+    background: #2d2d2d; /* Darker background for better contrast */
+    border: 1px solid #444; /* Darker border for subtle separation */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+    height: 200px; /* Fixed height for all cards */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Ensure images are uniform */
+  .testimonial-content img {
+    border: 2px solid #1e90ff; /* Bright blue border for user images */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .testimonial-content h6 {
+    color: #ffffff; /* White text for user names */
+  }
+  
+  .testimonial-content span {
+    color: #b0b0b0; /* Lighter gray for company names */
+  }
+  
+  /* Animation to make the testimonials scroll continuously */
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
