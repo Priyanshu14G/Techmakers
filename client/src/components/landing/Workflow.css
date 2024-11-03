@@ -1,0 +1,54 @@
+/* Keyframe animations */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes scaleIn {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Animation classes */
+  .fade-in-up {
+    animation: fadeInUp 1s ease-out forwards;
+  }
+  
+  .scale-in {
+    animation: scaleIn 1s ease-out forwards;
+  }
+  
+  .checklist-item {
+    animation: fadeInUp 1s ease-out forwards;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Start from below */
+  }
+  
+  .checklist-item:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  
+  .checklist-item:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  
+  .checklist-item:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  
+  .checklist-item:nth-child(4) {
+    animation-delay: 0.8s;
+  }
+  

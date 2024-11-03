@@ -1,0 +1,122 @@
+/* CheckoutComponent.css */
+
+.checkout-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .left-side {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .text-box {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .home-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .home-price,
+  .home-desc {
+    margin-bottom: 10px;
+    font-size: 1rem;
+  }
+  
+  .right-side {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .receipt {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .receipt-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    text-align: right;
+  }
+  
+  .total {
+    font-weight: bold;
+  }
+  
+  .payment-info {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .payment-heading {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .form-box {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-box div {
+    margin-bottom: 15px;
+  }
+  
+  .card-logos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .expires,
+  .card-expiration {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .expires {
+    margin-right: 10px;
+  }
+  
+  .cvv-info {
+    margin-left: 10px;
+  }
+  
+  .btn {
+    background-color: #4a90e2;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .footer-text {
+    margin-top: 20px;
+    font-size: 0.875rem;
+    color: #888;
+  }
+  
